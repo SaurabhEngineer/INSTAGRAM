@@ -1,0 +1,201 @@
+html{
+    font-size: 10px;
+    box-sizing: border-box;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: #04f7ff;
+}
+
+/* Container  */
+.container{
+    background-color: rgb(157, 255, 138);
+    height: 97vh;
+    width: 30vw;
+    margin: auto;
+    margin-top: 9px;
+}
+
+/* Heading Div  */
+.heading{
+    display: flex;
+    justify-content: space-between;
+    font-size: 2rem;
+    padding-bottom: 5px;
+    border-bottom: 1px solid rgba(57, 106, 241, 0.671);
+    background-color: #a50037;
+
+}
+.heading .heading-icon{
+    font-size: 3.2rem;
+    padding: 1rem;
+    opacity: 70%;
+}
+
+h1{
+    font-family: 'Playball', cursive;
+    opacity: 85%;
+    font-weight: 600;
+}
+
+/* Username and Userimage  */
+.username{
+    height: 5rem;
+    display: flex;
+}
+
+.userimage img{
+    height: 3.9rem;
+    width: 4rem;
+    border-radius: 50%;
+    margin-top: 9px;
+    margin-left: 1rem;
+    margin-right: 5px;
+}
+
+.username p{
+    margin-top: 1.1rem;
+    font-size: 1.7rem;
+}
+.username span{
+    font-size: 1.2rem;
+    position: absolute;
+}
+.username .three-dots{
+    margin-left: auto;
+    position: relative;
+    font-size: 3rem;
+    padding-right: 5px;
+}
+
+/* Post Image  */
+.post{
+    margin-top: 0.7rem;
+}
+.post img{
+    width: 100%;
+    height: 50vh;
+    object-fit:cover;
+}
+
+/* Like comments and share icons  */
+.actions{
+    display:flex;
+    padding-left: 6px;
+    margin-top: 7px;
+}
+.label{
+    margin-left: auto;
+    padding-right: 6px;
+}
+.actions, .like, .comment, .share{
+    margin-right: 7px;
+}
+.hdr-weak{
+    margin-left: 25%;
+    margin-top: -1.4rem;
+}
+.like{
+    color: rgb(255, 45, 8);
+    opacity: 100%;
+}
+
+/* content  */
+.content{
+    padding-left: 2rem;
+    padding-top: 1rem;
+    padding-right: 1rem;
+}
+.content h3{
+    font-size: 1.7rem;
+    margin-bottom: 7px;
+}
+
+.content p{
+    font-size: 1.5rem;
+}
+.content p span{
+    opacity: 95%;
+}
+.content .dayago{
+    opacity: 80%;
+}
+
+/* Newcomment  */
+.newcomment{
+    display: flex;
+    padding: 5px 10px 5px 10px;
+    margin-top: 5px;
+    width: 95.2%;
+    float: right;
+    border-top: 1px solid rgba(247, 131, 131, 0.836);
+}
+.newcomment input{
+    padding: 10px;
+    width: 100%;
+    border: none;
+    outline: none;
+    font-size: 1.4rem;
+}
+.newcomment button{
+    width: 7rem;
+    color: #1e3bdf;
+    border: none;
+    outline: none;
+    padding: 5px;
+    background-color: #ffff;
+    font-weight: 700;
+}
+.newcomment .imoji{
+    color: #0a6801;
+    margin-top: 5px;
+}
+
+
+/* media query for 540px  */
+@media (max-width: 480px){
+    .container{
+        width: 100vw;
+        height: 100vh;
+    }
+    .content p{
+        font-size: 1.5rem;
+    }    
+    html{
+        font-size: 10px;
+    }
+}
+
+
+
+/* media query for 720px 
+@media (min-width: 480px){
+    .container{
+        width: 70vw;
+        height: 99vh;
+    }
+    .content p{
+        font-size: 1.5rem;
+    }
+    html{
+        font-size: 14px;
+    }
+}
+/* media query for 720px  */
+/* @media (max-width: 900px){
+    .container{
+        width: 30vw;
+        height: 99vh;
+    }
+    .content p{
+        font-size: 1.5rem;
+    }
+    html{
+        font-size: 14px;
+    } */
+/* } */
+
